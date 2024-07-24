@@ -1,0 +1,1 @@
+# Nivel-de-estresse-do-
