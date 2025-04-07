@@ -1,29 +1,58 @@
-# Projeto de previsão do nível de estresse do aluno  
-<br />
+# Nivel-de-estresse-do-Aluno
 
-### 👉 Configurar para Windows
+## Projeto da Disciplina PET1706 - TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE (Redes Neurais Artificiais) - 2024.1
+> Professora: [Rosana Rego](https://github.com/roscibely)
 
-> Este projeto utiliza um conjunto de dados sobre fatores de estresse para prever os níveis de estresse utilizando modelos de aprendizado de máquina.
+![Bacharel em Engenharia de Software](./imag/engsoft.png)
 
-<br />
-Configuração do Ambiente
-<br />
+Curso: [Bacharel em Engenharia de Software](https://engsoftwarepaudosferros.ufersa.edu.br/apresentacao/)
 
-> As seguintes bibliotecas Python são necessárias para executar este projeto: <br />
-. gdown<br />
-. pandas<br />
-. matplotlib<br />
-. seaborn<br />
-. scikit-learn<br />
+- UFERSA - Campus Pau dos Ferros
 
-<br />
+Este projeto tem como objetivo classificar o nível de estresse dos alunos com base em diversos fatores, oferecendo um sistema que auxilia na avaliação e no acompanhamento do bem-estar mental dos estudantes. 
 
-``` bash
-$ pip install gdown
-$ pip install pandas
-$ pip install matplotlib
-$ pip install saborn
-$ pip install scikit-learn
+# Funcionalidades Principais
+
+### Classificação de Nível de Estresse:
+ O sistema é capaz de analisar dados de entrada e identificar o nível de estresse do aluno, permitindo uma melhor compreensão de seu estado mental e auxiliando na identificação de possíveis intervenções necessárias.
+
+### Processamento de Dados:
+ Utilizando bibliotecas como NumPy e Pandas, o sistema realiza o pré-processamento dos dados para normalização e tratamento de variáveis categóricas, facilitando a identificação e extração de informações relevantes.
+
+### Modelo de Machine Learning:
+ O sistema incorpora um modelo de aprendizado de máquina previamente treinado para a classificação de níveis de estresse. Esse modelo foi alimentado com uma ampla variedade de dados demográficos e de hábitos de vida.
+
+## Instalação
+
+1. Clone o repositório do GitHub:
+```
+ git clone https://github.com/ClassNeuralNetwork/Nivel-de-estresse-do-Aluno.git
+
+```
+2. Inicie um ambiente virtual
+```
+python3 -m venv venv
+```
+3. Ative o ambiente virtual:
+
+>    * No Windows
+```
+venv\Scripts\activate
+```
+>    * No macOS e Linux
+```
+source venv/bin/activate
+```
+4. Instale as dependências usando pip:
+```
+pip install -r requirements.txt
 ```
 
-<br/>
+## Equipe
+<img src="./imag/R01_0426.jpg" alt="Iverton Emiquison" width="200" height="300"/>
+
+- [Iverton Emiquison](https://github.com/IVERTON-EMIQUISON) 
+- [Marcelo Mesquita](https://github.com/MarceloMesquitaS) 
+
+
+Este README fornece uma visão geral do projeto, incluindo suas funcionalidades, requisitos, instruções de instalação e uso, bem como informações sobre a contribuição e a equipe envolvida.
